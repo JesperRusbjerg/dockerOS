@@ -1,0 +1,3 @@
+docker build -t jrusbjerg/os .
+
+docker run -itd --name jrusOS -v $HOME/documents:/home/jezper jrusbjerg/os
