@@ -1,3 +1,8 @@
 docker build -t jrusbjerg/os .
 
+#works with windows terminal
 docker run -itd --name jrusOS -v $HOME/documents:/home/jezper jrusbjerg/os
+
+
+#hard coded path
+docker run -itd --name jrusOS -v //c/Users/JesperRusbjerg/Documents:/home/jezper jrusbjerg/os

@@ -15,5 +15,3 @@ RUN echo jezper:admin | chpasswd
 RUN usermod -aG sudo jezper
 
 USER jezper
-
-VOLUME ~/Documents/home:jezper
